@@ -99,6 +99,7 @@ function Bird(fitness) {
 
 		// Not OOP. Bad!
 		round += 1;
+	document.querySelector('#prev-strategy').style.display = 'unset';
 		updateScore();
 		declareWinner();
 	}

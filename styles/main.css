@@ -1,0 +1,18 @@
+#main-content {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0 4%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#prev-strategy {
+  display: none;
+}
+
+#buttons {
+  text-align: center;
+}
