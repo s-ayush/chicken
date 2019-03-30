@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>
+      🐔
+    </title>
+  </head>
+
+  <body>
+    <div id="main-content">
+      <h1>Chicken 🐔</h1>
+
+      <p>You are a player fighting for a resource that has value
+      <span id="value">0</span>. A fight consists of <span
+        id="num-rounds">0</span> rounds. Each player can choose between two
+      strategies for each round.<br>
+      Strategy 1 is to display and retreat if the opponent attacks.<br>
+      Strategy 2 is to attack till you are injured.<br>
+      Injury leads to a loss in fitness points.</p>
+
+      <h2>Round <span id="round">0</span></h2>
+      <div id="score-board">
+        <h3>Score</h3>
+        <ul>
+          <li>Player has fitness <span id="player-score">0</span></li>
+          <li>CPU has fitness <span id="cpu-score">0</span></li>
+        </ul>
+      </div>
+
+      <h3>Strategy</h3>
+      <p>In the previous round,</p>
+      <ul id="prev-strategy">
+        <li>Player chose to <span id="player-strategy"></span></li>
+        <li>CPU chose to <span id="cpu-strategy"></span></li>
+      </ul>
+
+      <p>Choose your strategy for this round below.</p>
+      <div id="buttons">
+        <button type="button" id="attack-btn">Attack!</button>
+        <button type="button" id="retreat-btn">Retreat.</button>
+      </div>
+      
+    <script src="main.js"></script>
+  </body>
+
+</html>
+
+
+
